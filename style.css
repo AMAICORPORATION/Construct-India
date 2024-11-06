@@ -136,7 +136,7 @@ nav ul li a {
     }
 }
 
-/* success Section */
+/* success section */
 .success-section {
     text-align: center;
     padding: 2rem 1rem;
@@ -145,7 +145,7 @@ nav ul li a {
 }
 
 .success-section h2 {
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
