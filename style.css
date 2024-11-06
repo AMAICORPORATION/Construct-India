@@ -23,7 +23,6 @@ header {
 .logo img {
     width: 11rem;
     height: 10rem;
-    align-self: flex-start;
 }
 
 nav ul {
@@ -100,7 +99,7 @@ nav ul li a {
 
 .goal h2 {
     font-size: 2rem;
-    color: #333;
+    color: #0d1f44;
     margin-bottom: 1rem;
 }
 
@@ -109,7 +108,7 @@ nav ul li a {
     margin: 0 auto;
     font-size: 1rem;
     line-height: 1.6;
-    color: #666;
+    color: #6c757d;
 }
 
 /* Responsive Design */
@@ -134,5 +133,67 @@ nav ul li a {
 
     .goal h2 {
         font-size: 1.5rem;
+    }
+}
+
+/* success Section */
+.success-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #0d1f44;
+    background-color:  #f9f9f9;
+}
+
+.success-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.success-section p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.success-metrics {
+    display: flex;
+    justify-content: center;
+    background-color: #e9f2fc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+}
+
+.metric {
+    text-align: center;
+}
+
+.metric .number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0d1f44;
+}
+
+.metric .label {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .success-metrics {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .metric .number {
+        font-size: 28px;
+    }
+
+    .metric .label {
+        font-size: 12px;
     }
 }
