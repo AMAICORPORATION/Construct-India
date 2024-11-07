@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construct India</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -26,8 +27,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Construct India</h1>
-            <p>Connecting Dreams to Realities with the maximum potential, approach and trust!</p>
+            <h1 data-aos="fade-right" >Construct India</h1>
+            <p data-aos="zoom-in-left">Connecting Dreams to Realities with the maximum potential, approach and trust!</p>
             <div class="buttons">
                 <a href="#" class="btn">Find your land</a>
                 <a href="#" class="btn">Start Constructing</a>
@@ -42,31 +43,12 @@
         <p>To create a user-friendly, comprehensive ecosystem that connects buyers, renters, property owners, builders and investors with the best available properties while providing seamless navigation, detailed listings, and valuable insights into the real estate market.</p>
     </section>
 
-    <!-- success section -->
-    <div class="success-section">
-        <h2>Our Success</h2>
-        <p>Where success comes from satisfaction in every home experience</p>
-        <div class="success-metrics">
-            <div class="metric">
-                <p class="number">00</p>
-                <p class="label">Properties</p>
-            </div>
-            <div class="metric">
-                <p class="number">2</p>
-                <p class="label">Happy customer</p>
-            </div>
-            <div class="metric">
-                <p class="number">0</p>
-                <p class="label">Award Winning</p>
-            </div>
-            <div class="metric">
-                <p class="number">01</p>
-                <p class="label">Country</p>
-            </div>
-        </div>
-    </div>
-
-   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:1,
+      });
+    </script>
 
 </body>
 </html>
