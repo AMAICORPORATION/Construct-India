@@ -239,7 +239,7 @@ nav ul li :hover {
 }
 
 .contractor-card {
-  background-color: #fff;
+  background-color: #e9f2fc;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -263,12 +263,12 @@ nav ul li :hover {
 
 .contractor-info h2 {
   font-size: 1.5rem;
-  color: #333;
+  color: #0d1f44;
   margin: 10px 0;
 }
 
 .contractor-info p {
-  color: #555;
+  color: #6c757d;
   font-size: 1rem;
   margin: 5px 0;
 }
