@@ -96,10 +96,9 @@ nav ul li :hover {
 /* social section */
 
 .footer {
-    padding: 20px 0;
-    background-color: #f9f9f9;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 110px;
+  padding: 20px 0;
+  background-color: white;
   }
   
   .footer-divider {
@@ -137,8 +136,8 @@ nav ul li :hover {
   
   .icon {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-size: cover;
   }
   
